@@ -12,22 +12,27 @@ html {
 }
 
 body {
-  font-family: 'Press Start 2P', sans-serif;
-  color: #eee;
-  background-color: #222;
+   /* font-family: 'Press Start 2P', sans-serif; */
+  color: #131313; 
+  background-color: #eeeeee; 
+  
   /* background-color: #60b347; */
 }
 
 /* LAYOUT */
 header {
+  background: url(https://image.winudf.com/v2/image1/Y29tLmFzaGZhcW1hbGlrLmd1ZXNzZ2FtZV9zY3JlZW5fMF8xNTQyNzc5ODAzXzA3OA/screen-0.jpg?fakeurl=1&type=.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   position: relative;
-  height: 35vh;
+  height: 60vh;
   border-bottom: 7px solid #eee;
 }
 
 main {
   height: 65vh;
-  color: #eee;
+  color: #131313;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -57,9 +62,11 @@ h1 {
 }
 
 .number {
-  background: #eee;
+  background: rgba(225, 225, 225, 0.83);
+  border-radius: 5px;
   color: #333;
   font-size: 6rem;
+  font-weight: 700;
   width: 15rem;
   padding: 3rem 0rem;
   text-align: center;
@@ -70,21 +77,19 @@ h1 {
 }
 
 .between {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   position: absolute;
   top: 2rem;
-  right: 2rem;
+  right: 3rem;
+  
 }
 
-.again {
-  position: absolute;
-  top: 2rem;
-  left: 2rem;
-}
+
 
 .guess {
   background: none;
-  border: 4px solid #eee;
+  border: 2px solid #7303fc;
+  border-radius: 5px;
   font-family: inherit;
   color: inherit;
   font-size: 5rem;
@@ -99,16 +104,27 @@ h1 {
   border: none;
   background-color: #eee;
   color: #222;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: inherit;
+  border-radius: 5px;
   padding: 2rem 3rem;
   cursor: pointer;
 }
+
 
 .btn:hover {
   background-color: #ccc;
 }
 
+ .again {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  background-color: #edd81a
+} 
+.check {
+  background-color: #6ae60b;
+}
 .message {
   margin-bottom: 8rem;
   height: 3rem;

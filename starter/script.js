@@ -71,7 +71,7 @@ document.querySelector(".again").addEventListener("click", function() {
     document.querySelector(".number").textContent = "?";
     document.querySelector(".guess").textContent = " ";
 
-    document.querySelector("body").style.backgroundColor = "#222";
+    document.querySelector("body").style.backgroundColor = "#eeeeee";
     document.querySelector(".number").style.width = "15rem";
 
 
